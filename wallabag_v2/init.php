@@ -6,8 +6,10 @@ class Wallabag_v2 extends Plugin {
 		return array("2.0.0",
 			"Post articles to a Wallabag v 2.x instance",
 			"joshu@unfettered.net",
+<<<<<<< HEAD
 			false,
          "https://github.com/joshp23/ttrss-to-wallabag-v2");
+=======
 	}
 
 	function init($host) {
@@ -49,6 +51,7 @@ class Wallabag_v2 extends Plugin {
 				</script>
 
 		<table width='100%' class='prefPrefsList'>
+<<<<<<< HEAD
 		<tr><td width='40%'> <?= __("Wallabag URL (No trailing slash!)") ?></td>
 		<td class='prefValue'><input dojoType='dijit.form.ValidationTextBox' required='true' name='wallabag_url' regExp='^(http|https)://.*' value='<?= $w_url ?>'></td></tr>
 		<tr><td width='40%'><?= __("Wallabag Username") ?></td>
@@ -62,6 +65,30 @@ class Wallabag_v2 extends Plugin {
 		</table>
 
 				<?= \Controls\submit_tag(__("Save")) ?>
+=======
+			<tr>
+				<td width='40%'> <?= __("Wallabag URL (No trailing slash!)") ?></td>
+				<td class='prefValue'><input dojoType='dijit.form.ValidationTextBox' required='true' name='wallabag_url' regExp='^(http|https)://.*' value='<?= $w_url ?>'></td>
+			</tr>
+			<tr>
+				<td width='40%'><?= __("Wallabag Username") ?></td>
+				<td class='prefValue'><input dojoType='dijit.form.ValidationTextBox' name='wallabag_username' regExp='\w{0,64}' value='<?= $w_user ?>'></td>
+			</tr>
+			<tr>
+				<td width='40%'><?= __("Wallabag Password") ?></td>
+				<td class='prefValue'><input type='password' dojoType='dijit.form.ValidationTextBox' name='wallabag_password' regExp='.{0,64}' value='<?= $w_pass ?>'></td>
+			</tr>
+			<tr>
+				<td width='40%'><?= __("Wallabag Client ID") ?></td>
+				<td class='prefValue'><input dojoType='dijit.form.ValidationTextBox' name='wallabag_client_id' regExp='.{0,64}' value='<?= $w_cid ?>'></td>
+			</tr>
+			<tr>
+				<td width='40%'><?= __("Wallabag Client Secret") ?></td>
+				<td class='prefValue'><input dojoType='dijit.form.ValidationTextBox' name='wallabag_client_secret' regExp='.{0,64}' value='<?= $w_csec ?>'></td>
+			</tr>
+		</table>
+
+		<?= \Controls\submit_tag(__("Save")) ?>
 		<?php if($w_access == null || $w_access == false|| $w_access == "") { ?>
 			<strong style='color:red;'>  Alert</strong>: No OAuth tokens in Database! Submit Username and Password to retrieve new tokens.
 		<?php } else { ?>
@@ -155,7 +182,10 @@ class Wallabag_v2 extends Plugin {
 		$rv = "<img id=\"wallabagImgId\" src=\"plugins.local/wallabag_v2/wallabag.png\"
 			class='tagsPic' style=\"cursor: pointer;\"
 			onclick=\"postArticleToWallabag($article_id)\"
+<<<<<<< HEAD
 			title='".__('Wallabag v2')."'/>";
+=======
+			title='".__('Wallabag v2')."'>";
 
 		return $rv;
 	}

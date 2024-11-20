@@ -2,11 +2,13 @@ Wallabag v2: A TT-RSS to Wallabag v2 plugin
 =====================
 A [TT-RSS](https://tt-rss.org/) plugin for saving links to a [Wallabag v2](https://www.wallabag.org/) instance manually or automatically via content filters.
 
+<<<<<<< HEAD
 ### Fixes in this fork:
 1. Fixed "Save to wallabag" button not appearing. Thanks to [cthu1hoo](https://github.com/joshp23/ttrss-to-wallabag-v2/issues/44)
 2. Fixed "No method found" error after cicking said button. Thanks to [bynt](https://github.com/bynt/ttrss-to-wallabag-v2/compare/49ade5a1a216de74e42c4942ffa9cbf1bf426bec...4135f213311d9a3cd9cbed4649f3f77b451c813d)
 
 
+=======
 ### Installing the plugin:
 
 #### Prepare Wallabag
@@ -41,7 +43,11 @@ Code for this project exists because of:
 * [fxneumann's OneClickPocket plugin for TTRSS](https://github.com/fxneumann/oneclickpocket)
 * [xppppp's Wallabag v1 plugin for TTRSS](https://github.com/xppppp/ttrss-wallabag-plugin)
 
+<<<<<<< HEAD
 ### Support Dev
 All of my published code is developed and maintained in spare time, if you would like to support development of this, or any of my published code, I have set up a Liberpay account for just this purpose. Thank you.
 
 <noscript><a href="https://liberapay.com/joshu42/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+=======
+### Tips
+Dogecoin: DARhgg9q3HAWYZuN95DKnFonADrSWUimy3
