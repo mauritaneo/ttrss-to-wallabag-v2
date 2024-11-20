@@ -3,10 +3,7 @@ function postArticleToWallabag(id) {
 		Notify.progress("Saving to Wallabag …", true);
 		xhr.json("backend.php",	
 				{
-<<<<<<< HEAD
 					'op': 'PluginHandler',
-=======
-					'op': 'pluginhandler',
 					'plugin': 'wallabag_v2',
 					'method': 'getwallabagInfo',
 					'id': encodeURIComponent(id)
@@ -39,4 +36,3 @@ require(['dojo/_base/kernel', 'dojo/ready'], function (dojo, ready) {
 		});
 	});
 });
-

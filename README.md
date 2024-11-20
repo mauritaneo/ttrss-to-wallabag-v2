@@ -2,13 +2,11 @@ Wallabag v2: A TT-RSS to Wallabag v2 plugin
 =====================
 A [TT-RSS](https://tt-rss.org/) plugin for saving links to a [Wallabag v2](https://www.wallabag.org/) instance manually or automatically via content filters.
 
-<<<<<<< HEAD
 ### Fixes in this fork:
 1. Fixed "Save to wallabag" button not appearing. Thanks to [cthu1hoo](https://github.com/joshp23/ttrss-to-wallabag-v2/issues/44)
 2. Fixed "No method found" error after cicking said button. Thanks to [bynt](https://github.com/bynt/ttrss-to-wallabag-v2/compare/49ade5a1a216de74e42c4942ffa9cbf1bf426bec...4135f213311d9a3cd9cbed4649f3f77b451c813d)
 
 
-=======
 ### Installing the plugin:
 
 #### Prepare Wallabag
